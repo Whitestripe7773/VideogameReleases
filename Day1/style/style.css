@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+
+.whiteText {
+  margin-top: 5%;
+  color: white;
+}
+
+#gamesearch {
+  padding: 10px;
+  margin: 10px;
+}
+
+.bSearch {
+  padding: 10px;
+  margin: 10px;
+}
+
+.game {
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  border: solid black 1px;
+  border-radius: 20px;
+}
+
+.footer-box, .github {
+  color: white;
+  font-size: 20px;
+}
+
+.github {
+  font-size: 24px;
+}
+/*# sourceMappingURL=style.css.map */

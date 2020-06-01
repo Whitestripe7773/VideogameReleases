@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video game information</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="bg-dark" onload="getAllGames()">
+
+    <main>
+        <div class="row">
+            <div class="col-sm whiteText">
+                <h2>Search for a game title to see its release date and rating: </h2>
+            </div>
+            <div class="col-sm">
+                    <label for="text"></label> <br>
+                    <input id="gamesearch" type="text" placeholder="Title name"> <br>
+                    <button class="bSearch btn btn-light" onclick="getGameByName()">Search for game</button> <br>
+                    <button class="bReset btn btn-light" onclick="reset()">Reset</button>
+                    <div id="result"></div>
+            </div>
+            <div class="col-sm"></div>
+        </div>
+    </main>
+
+    <footer class="py-5 bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center footer-box">
+                    <p>Powered by the API from <a href="https://api.rawg.io/docs">Rawg.io</a></p> <br>
+                    <p>©2020 - Whitestripe7773 </p>
+                    <a class="github" href="https://github.com/Whitestripe7773"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
