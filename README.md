@@ -1,1 +1,1 @@
-<b 30 Days of Coding Challenge>
+30 Days of Coding Challenge
